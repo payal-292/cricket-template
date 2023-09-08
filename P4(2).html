@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        #parent{
+            height: 100vh;
+            width: 100vw;
+            background-image: url(./stadium.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        h1{
+            text-align: center;
+            text-shadow: 3px 2px 1px lightblue;
+            color: red;
+        }
+        #section{
+            height: 400px;
+            width: 1000px;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap-reverse;
+            margin: 0 auto;
+            margin-top: 120px;
+        }
+        .box{
+            height: 180px;
+            width: 130px;
+            text-align: center;
+            border-radius: 5px;
+            color: white;
+            box-shadow: 4px 4px 15px black;
+        }
+        div.box:hover{
+            padding: 15px 10px;
+            color: lightseagreen;
+        }
+        .bx{
+            height: 100px;
+            width: 100px;
+            margin: 0 auto;
+            border-radius: 50px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            box-shadow: 3px 4px 10px blue;
+        }
+        div.bx:hover{
+            padding: 5px 5px;
+        }
+        .b{
+            width: 120px;
+            height: 35px;
+            margin: 0 auto;
+            margin-top: 3px;
+            border-radius: 10px;
+            box-sizing: 1px 1px 1px blue;
+        }
+        div.b:hover{
+            padding: 5px 10px;
+        }
+        .run{
+            width: 100px;
+            height: 30px;
+            margin: 0 auto;
+            margin-top: 3px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 1px 1px 1px blue;
+        }
+        div.run:hover{
+            padding: 5px 10px;
+        }
+        #b1{
+            background-image: url(./vk.jpg);
+        }
+        #b3{
+            background-image: url(./sg.jpg);
+        }
+        #b5{
+            background-image: url(./rd.jpg);
+        }
+        #b7{
+            background-image: url(./ms.jpg);
+        }
+        #b9{
+            background-image: url(./rs.png);
+        }
+        #b11{
+            background-image: url(./ys.jpg);
+        }
+        #b13{
+            background-image: url(./vs.png);
+        }
+        #b15{
+            background-image: url(./sd.png);
+        }
+        #b17{
+            background-image: url(./skr.jpg);
+        }
+        #b20{
+            background-image: url(./st.png);
+        }
+        #b22{
+            background-image: url(./gg.jpg);
+        }
+        #b2{
+            background-image: url(.);
+        }
+        #b24{
+            background-image: url(./hp.jpg);
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <h1>INDIAN SQUAD</h1>
+        <section id="section">
+            <div class="box" id="box1">
+                <div class="bx" id="b1"></div>
+                <b>
+                    <div class="b" id="b2">Virat Kohli</div>
+                    <div class="run" id="run1">RUNS-12898</div>
+                </b>
+            </div>
+            <div class="box" id="box2">
+                <div class="bx" id="b3"></div>
+                <b>
+                    <div class="b" id="b4">SC Ganguly</div>
+                    <div class="run" id="run2">RUNS-11221</div>
+                </b>
+            </div>
+            <div class="box" id="box3">
+                <div class="bx" id="b5"></div>
+                <b>
+                    <div class="b" id="b6">R Dravid</div>
+                    <div class="run" id="run3">RUNS-10768</div>
+                </b>
+            </div>
+            <div class="box" id="box4">
+                <div class="bx" id="b7"></div>
+                <b>
+                    <div class="b" id="b8">MS Dhoni</div>
+                    <div class="run" id="run4">RUNS-10599</div>
+                </b>
+            </div>
+            <div class="box" id="box5">
+                <div class="bx" id="b9"></div>
+                <b>
+                    <div class="b" id="b10">RG Sharma</div>
+                    <div class="run" id="run5">RUNS-9825</div>
+                </b>
+            </div>
+            <div class="box" id="box6">
+                <div class="bx" id="b11"></div>
+                <b>
+                    <div class="b" id="b12">Yuvraj Singh</div>
+                    <div class="run" id="run6">RUNS-8609</div>
+                </b>
+            </div>
+            <div class="box" id="box7">
+                <div class="bx" id="b13"></div>
+                <b>
+                    <div class="b" id="b14">V Sehwag</div>
+                    <div class="run" id="run7">RUNS-7995</div>
+                </b>
+            </div>
+            <div class="box" id="box8">
+                <div class="bx" id="b15"></div>
+                <b>
+                    <div class="b" id="b16">S Dhawan</div>
+                    <div class="run" id="run8">RUNS-6793</div>
+                </b>
+            </div>
+            <div class="box" id="box9">
+                <div class="bx" id="b17"></div>
+                <b>
+                    <div class="b" id="b18">SK Raina</div>
+                    <div class="run" id="run9">RUNS-5615</div>
+                </b>
+            </div>
+            <div class="box" id="box10">
+                <div class="bx" id="b20"></div>
+                <b>
+                    <div class="b" id="b21">S Tendulkar</div>
+                    <div class="run" id="run10">RUNS-34357</div>
+                </b>
+            </div>
+            <div class="box" id="box11">
+                <div class="bx" id="b22"></div>
+                <b>
+                    <div class="b" id="b23">G Gambhir</div>
+                    <div class="run" id="run11">RUNS-5238</div>
+                </b>
+            </div>
+            <div class="box" id="box12">
+                <div class="bx" id="b24"></div>
+                <b>
+                    <div class="b" id="b25">H Pandya</div>
+                    <div class="run" id="run12">RUNS-4413</div>
+                </b>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
